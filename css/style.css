@@ -192,13 +192,14 @@ p {
   object-fit: contain;
   display: block; }
 .site-nav .logo-img {
-  height: 40px;
-  max-height: 40px; }
+  height: 90px;
+  max-height: 90px; }
 .site-nav .logo .logo-img.mr-2 {
   margin-right: 10px !important; }
 .site-nav .logo span {
-  white-space: nowrap; }
-
+  white-space: nowrap;
+  font-size: 28px;
+}
 .about-intro-text {
   font-family: "Lora", serif;
   font-size: 16px;
