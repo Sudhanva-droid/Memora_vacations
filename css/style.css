@@ -194,6 +194,9 @@ p {
 .site-nav .logo-img {
   height: 70px;
   max-height: 70px; }
+.site-navigation {
+    align-items: center;
+}
 .site-nav .logo .logo-img.mr-2 {
   margin-right: 10px !important; }
 .site-nav .logo span {
