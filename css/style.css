@@ -1671,3 +1671,7 @@ p {
     font-size: 14px;
   }
 }
+.logo-img {
+  height: 60px;
+  width: auto;
+}
