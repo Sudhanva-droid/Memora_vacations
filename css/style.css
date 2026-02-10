@@ -1599,3 +1599,9 @@ p {
   align-items: center;
   justify-content: center;
 }
+.footer-clean p {
+  font-family: Arial, sans-serif !important;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0;
+}
