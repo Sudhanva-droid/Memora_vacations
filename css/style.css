@@ -1682,10 +1682,6 @@ p {
 .site-nav {
   padding-top: 10px;
 }
-/* NAV BACKGROUND FIX */
-.site-nav {
-  background: #274B63 !important;
-}
 /* NAV POSITION FIX */
 .site-nav {
   top: 0 !important;
