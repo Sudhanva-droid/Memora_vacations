@@ -1671,3 +1671,14 @@ p {
     font-size: 14px;
   }
 }
+.site-nav .logo-img {
+  height: 140px !important;
+  max-height: 140px !important;
+  width: auto;
+}
+.site-navigation {
+  justify-content: center;
+}
+.site-nav {
+  padding-top: 10px;
+}
