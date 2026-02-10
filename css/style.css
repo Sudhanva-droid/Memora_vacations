@@ -1599,3 +1599,9 @@ p {
   align-items: center;
   justify-content: center;
 }
+.site-footer .inner.dark {
+  padding: 60px 0;
+}
+.site-footer .inner.dark .container {
+  max-width: 100% !important;
+}
