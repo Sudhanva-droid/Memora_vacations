@@ -1715,3 +1715,35 @@ p {
   }
 
 }
+/* ===== MOBILE CARD FIX ===== */
+@media (max-width: 768px) {
+
+  .services-grid,
+  .row.services,
+  .features-grid {
+    display: block !important;
+  }
+
+  .services-grid > div,
+  .row.services > div,
+  .features-grid > div,
+  .col-md-6,
+  .col-lg-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .service-card,
+  .feature-1,
+  .media-1 {
+    padding: 20px !important;
+    margin-bottom: 18px;
+  }
+
+  .service-card p,
+  .feature-1 p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+}
