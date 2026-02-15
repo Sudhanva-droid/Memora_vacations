@@ -1752,15 +1752,14 @@ p {
 .site-nav .site-menu a:hover {
   color: #ffd166 !important; /* optional accent */
 }
-/* ===== LIGHT THEME OVERRIDE — FINAL FIX ===== */
+/* ===== HERO LUXURY LIGHT GRADIENT ===== */
 
-/* Hero background */
 .hero,
 .hero.hero-inner {
-  background: #f2f5f9 !important;
+  background: linear-gradient(135deg, #e9f3ff 0%, #d7e8ff 100%) !important;
 }
 
-/* Hero text color */
+/* Hero text */
 .hero h1,
 .hero.hero-inner h1,
 .hero.hero-inner p {
@@ -1768,27 +1767,27 @@ p {
   text-shadow: none !important;
 }
 
-/* Navigation background */
+/* Clean white navbar */
 .site-nav {
   background: #ffffff !important;
   position: fixed;
   top: 0;
   padding-top: 5px !important;
   padding-bottom: 5px !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
 }
 
-/* Nav text color */
+/* Nav text */
 .site-menu a {
   color: #1A374D !important;
 }
 
-/* Push content down because nav is fixed */
+/* Push hero below fixed nav */
 .hero {
   margin-top: 100px;
 }
 
-/* Section spacing fix for mobile */
+/* Mobile spacing */
 @media (max-width: 768px) {
   .hero {
     padding: 5rem 0 6rem 0 !important;
