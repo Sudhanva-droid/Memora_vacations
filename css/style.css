@@ -1786,12 +1786,14 @@ p {
   backdrop-filter: blur(12px);
   box-shadow: -10px 0 40px rgba(0,0,0,0.6);
 }
-/* Logo highlight */
+/* Premium logo header surface */
 
-.site-nav .logo-img {
-  background: rgba(255,255,255,0.12);
-  padding: 6px 10px;
-  border-radius: 12px;
-  backdrop-filter: blur(2px);
-  box-shadow: 0 4px 18px rgba(255,255,255,0.25);
+.site-nav {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.95),
+    rgba(255,255,255,0.75),
+    transparent
+  );
+  backdrop-filter: blur(6px);
 }
