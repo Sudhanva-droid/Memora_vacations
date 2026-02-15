@@ -1821,36 +1821,51 @@ body {
   opacity: 0 !important;
   background: none !important;
 }
-/* ===== FORCE TEXT TO BLACK ON LIGHT THEME ===== */
+  /* ===== FORCE LIGHT THEME FIX ===== */
 
-/* Navigation menu */
-.site-nav a,
-.site-menu a {
-  color: #000 !important;
+body {
+  background: #eef2f6 !important;
+  color: #111 !important;
 }
 
-/* Hero headings */
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #111 !important;
+}
+
+/* paragraphs */
+p {
+  color: #222 !important;
+}
+
+/* menu links */
+.site-nav a,
+.site-navigation a {
+  color: #111 !important;
+}
+
+/* hero text */
 .hero h1,
 .hero h2,
-.hero p,
-.section-title,
-h1, h2, h3, h4 {
-  color: #000 !important;
+.hero p {
+  color: #111 !important;
 }
 
-/* Services / About / Contact headings */
+/* section titles */
+.section-title {
+  color: #111 !important;
+}
+
+/* remove faded white text */
 .text-white,
 .text-white-opacity {
-  color: #000 !important;
+  color: #111 !important;
   opacity: 1 !important;
 }
 
-/* Buttons text */
-.btn {
-  color: #000 !important;
-}
-
-/* Footer fix (keep readable) */
-.site-footer {
-  color: #000;
+/* footer readable */
+.site-footer,
+.site-footer p,
+.site-footer a {
+  color: #111 !important;
 }
