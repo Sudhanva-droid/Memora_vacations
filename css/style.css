@@ -1821,3 +1821,36 @@ body {
   opacity: 0 !important;
   background: none !important;
 }
+/* ===== FORCE TEXT TO BLACK ON LIGHT THEME ===== */
+
+/* Navigation menu */
+.site-nav a,
+.site-menu a {
+  color: #000 !important;
+}
+
+/* Hero headings */
+.hero h1,
+.hero h2,
+.hero p,
+.section-title,
+h1, h2, h3, h4 {
+  color: #000 !important;
+}
+
+/* Services / About / Contact headings */
+.text-white,
+.text-white-opacity {
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
+/* Buttons text */
+.btn {
+  color: #000 !important;
+}
+
+/* Footer fix (keep readable) */
+.site-footer {
+  color: #000;
+}
