@@ -1869,8 +1869,51 @@ p {
 .site-footer a {
   color: #111 !important;
 }
-/* Step 1 — nav text fix */
-.site-nav a,
-.site-navigation a {
+/* =========================
+   FINAL BLACK TEXT FIX
+   paste at VERY bottom
+   ========================= */
+
+/* Global text */
+body,
+p,
+h1, h2, h3, h4, h5, h6 {
   color: #111 !important;
+}
+
+/* Navigation */
+.site-nav,
+.site-nav a,
+.site-navigation a,
+.site-menu a {
+  color: #111 !important;
+}
+
+/* Hero */
+.hero h1,
+.hero h2,
+.hero p,
+.text-white,
+.text-white-opacity {
+  color: #111 !important;
+  opacity: 1 !important;
+}
+
+/* Section titles */
+.section-title {
+  color: #111 !important;
+}
+
+/* Footer */
+.site-footer,
+.site-footer p,
+.site-footer a {
+  color: #111 !important;
+}
+
+/* Remove any white overlays */
+.hero:before,
+.hero:after {
+  opacity: 0 !important;
+  background: none !important;
 }
