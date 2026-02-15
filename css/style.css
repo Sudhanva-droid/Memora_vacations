@@ -1308,35 +1308,30 @@ p {
     opacity: .5; }
 
 .social-icons li {
-  display: inline-block; }
-  .social-icons li a {
-    color: #111;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    border-radius: 50%;
-    background: #1a1a1a; }
-    .social-icons li a span {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
-    .social-icons li a:hover {
-      color: #ffffff; }
-  .social-icons li:first-child a {
-    padding-left: 0; }
-
-.social-icons.light li a {
-  color: #000000;
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  position: relative;
+}
+
+.social-icons li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  background: #f8f9fa; }
+  background: #ffffff;
+  color: #111;
+  border: 1px solid #ccc;
+  transition: all 0.25s ease;
+}
+
+.social-icons li a:hover {
+  background: #1A374D;
+  color: #ffffff;
+}
+
+.social-icons li a span {
+  pointer-events: none;
+}
 
 .video-wrap {
   position: relative;
