@@ -1869,3 +1869,8 @@ p {
 .site-footer a {
   color: #111 !important;
 }
+/* Step 1 — nav text fix */
+.site-nav a,
+.site-navigation a {
+  color: #111 !important;
+}
