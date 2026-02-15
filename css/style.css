@@ -252,7 +252,7 @@ p {
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.95); }
+        color: #111; }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
@@ -1303,7 +1303,7 @@ p {
 .social-icons li {
   display: inline-block; }
   .social-icons li a {
-    color: rgba(255, 255, 255, 0.95);
+    color: #111;
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -1561,7 +1561,7 @@ p {
 .hero.hero-inner .intro-wrap p {
   font-size: 1.05rem;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.95); }
+  color: #111; }
 
 /* Service / media-1 cards */
 .media-1 h3 a:hover {
