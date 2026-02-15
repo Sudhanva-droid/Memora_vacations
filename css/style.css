@@ -1712,3 +1712,28 @@ p {
 
 }
 
+/* ===== FINAL HEADER ALIGNMENT FIX ===== */
+
+.site-nav {
+  position: relative;
+  padding: 12px 0 !important;
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero.hero-inner {
+  padding: 5rem 0 5rem 0 !important;
+  text-align: center;
+}
+
+.hero.hero-inner .intro-wrap {
+  margin-top: 10px;
+}
+
+.hero.hero-inner h1 {
+  margin-bottom: 12px;
+}
