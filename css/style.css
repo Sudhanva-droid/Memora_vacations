@@ -1794,3 +1794,30 @@ body {
 /* Hero heading */
 .hero h1 {
   color:
+/* ===== Contrast repair ===== */
+
+/* Hero text */
+.hero h1,
+.hero h1 span,
+.typed-words {
+  color: #1A374D !important;
+}
+
+/* underline accent */
+.hero .underline,
+.hero u {
+  background: #7fa9c4 !important;
+}
+
+/* Navigation links */
+.site-menu a {
+  color: #1A374D !important;
+  opacity: 1 !important;
+}
+
+/* Remove hero fog overlay */
+.hero:before,
+.hero:after {
+  opacity: 0 !important;
+  background: none !important;
+}
