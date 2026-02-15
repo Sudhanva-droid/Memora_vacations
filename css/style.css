@@ -1917,24 +1917,3 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0 !important;
   background: none !important;
 }
-/* FORCE readable section text */
-
-.hero,
-.untree_co-section,
-.section-title,
-.services-hero-text,
-.about-intro-text,
-.contact-hero-text {
-  color: #111 !important;
-}
-
-.hero p,
-.untree_co-section p {
-  color: #222 !important;
-}
-
-.text-white,
-.text-white-opacity {
-  color: #111 !important;
-  opacity: 1 !important;
-}
