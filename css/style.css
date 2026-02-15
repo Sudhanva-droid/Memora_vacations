@@ -1733,3 +1733,13 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+/* ===== FORCE NAV TEXT VISIBLE ===== */
+
+.site-menu a {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+.site-menu a:hover {
+  color: #1A374D !important;
+}
