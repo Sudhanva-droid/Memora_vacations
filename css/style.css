@@ -1925,16 +1925,14 @@ h1, h2, h3, h4, h5, h6 {
 .site-nav .site-menu a:hover {
   color: #ffd166 !important; /* optional accent */
 }
-/* ===== GLOBAL TEXT READABILITY FIX ===== */
-.text-white,
-.text-white-opacity,
+/* === HERO HEADING FINAL FIX === */
 .hero h1,
-.hero h2,
-.hero h3,
-.hero p,
-.services-hero-text,
-.contact-hero-text,
-.about-intro-text {
+.hero h1 span,
+.hero h1 .typed-words {
   color: #111111 !important;
+  text-shadow: none !important;
+}
+.hero,
+.hero * {
   opacity: 1 !important;
 }
