@@ -1149,15 +1149,22 @@ p {
 
 .cta-section {
   background: #1A374D;
-  padding: 3.5rem 0 !important; }
+  padding: 3.5rem 0 !important;
+}
+
+.cta-section .text-white {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #111111 !important;
+}
+
+@media (max-width: 767.98px) {
   .cta-section .text-white {
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-  @media (max-width: 767.98px) {
-    .cta-section .text-white {
-      font-size: 1.25rem; } }
+    font-size: 1.25rem;
+  }
+}
 
 .custom-block {
   margin-bottom: 30px; }
