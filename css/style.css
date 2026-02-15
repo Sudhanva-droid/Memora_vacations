@@ -40,11 +40,11 @@ a {
 
 ::-moz-selection {
   background: #000000;
-  color: #ffffff; }
+  color: #111111 ; }
 
 ::selection {
   background: #000000;
-  color: #ffffff; }
+  color: #111111 ; }
 
 .text-primary {
   color: #1A374D !important; }
