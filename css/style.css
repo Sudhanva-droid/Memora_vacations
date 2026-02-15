@@ -1568,7 +1568,8 @@ p {
 .hero.hero-inner .intro-wrap p {
   font-size: 1.05rem;
   line-height: 1.7;
-  color: #111; }
+  color: #111111 !important;
+}
 
 /* Service / media-1 cards */
 .media-1 h3 a:hover {
@@ -1583,7 +1584,7 @@ p {
   -ms-transform: scale(1.02);
   transform: scale(1.02); }
 .site-menu a {
-  color: #ffffff !important;
+  color: #111111 !important;
   font-weight: 700 !important;
   font-size: 18px;
   letter-spacing: 0.5px;
