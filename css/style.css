@@ -1782,3 +1782,7 @@ p {
 .site-mobile-menu .site-nav-wrap {
   margin-top: 30px;
 }
+.site-mobile-menu {
+  backdrop-filter: blur(12px);
+  box-shadow: -10px 0 40px rgba(0,0,0,0.6);
+}
