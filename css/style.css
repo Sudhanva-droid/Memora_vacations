@@ -1712,28 +1712,24 @@ p {
 
 }
 
-/* ===== FINAL HEADER ALIGNMENT FIX ===== */
+/* ===== SAFE HEADER FIX ===== */
 
 .site-nav {
-  position: relative;
-  padding: 12px 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.hero.hero-inner {
+  padding-top: 8rem !important;
+  padding-bottom: 5rem !important;
+  text-align: center;
 }
 
 .site-navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.hero.hero-inner {
-  padding: 5rem 0 5rem 0 !important;
-  text-align: center;
-}
-
-.hero.hero-inner .intro-wrap {
-  margin-top: 10px;
-}
-
-.hero.hero-inner h1 {
-  margin-bottom: 12px;
 }
